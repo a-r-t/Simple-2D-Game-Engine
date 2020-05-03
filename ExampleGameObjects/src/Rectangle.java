@@ -1,7 +1,4 @@
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Stroke;
+import java.awt.*;
 
 public class Rectangle extends Bounds implements GameObject {
 	protected Color color;

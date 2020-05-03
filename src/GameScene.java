@@ -1,10 +1,10 @@
 import java.awt.Graphics2D;
 
 public class GameScene {
-	private Bounds bounds;
+	private Bounds sceneBounds;
 
-	public void initialize(Bounds bounds) {
-		this.bounds = bounds;
+	public void initialize(Bounds sceneBounds) {
+		this.sceneBounds = sceneBounds;
 	}
 
 	public void update(Keyboard keyboard) {
