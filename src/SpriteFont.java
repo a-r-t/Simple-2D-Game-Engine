@@ -132,7 +132,6 @@ public class SpriteFont implements GameObject {
 		g.setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
 
 		g.setColor(outlineColor);
-		//g.setStroke(outlineStroke);
 		g.draw(textShape); // draw outline
 
 		g.setColor(color);
